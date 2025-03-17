@@ -1,6 +1,7 @@
 # NexusKnowledge: Advanced PKM System
 
 ## Overview
+
 NexusKnowledge is a high-end Personal Knowledge Management (PKM) application inspired by Tana and Capacities. It provides a powerful system for organizing information, creating connections between ideas, and building a personal knowledge graph.
 
 ## Key Features
@@ -25,6 +26,7 @@ NexusKnowledge is a high-end Personal Knowledge Management (PKM) application ins
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+)
 - npm or yarn
 - MongoDB
@@ -33,26 +35,31 @@ NexusKnowledge is a high-end Personal Knowledge Management (PKM) application ins
 ### Installation
 
 1. Clone the repository
-   ```
+
+   ```bash
    git clone https://github.com/yourusername/NexusKnowledge.git
    cd NexusKnowledge
    ```
 
 2. Install dependencies
-   ```
+
+   ```bash
    npm install
    cd client && npm install
    cd ../server && npm install
    ```
 
 3. Configure environment variables
-   ```
+
+   ```bash
    cp .env.example .env
    ```
+
    Edit the `.env` file with your configuration
 
 4. Start development servers
-   ```
+
+   ```bash
    # In one terminal, start the backend
    npm run dev:server
    
@@ -63,4 +70,5 @@ NexusKnowledge is a high-end Personal Knowledge Management (PKM) application ins
 5. Open your browser and navigate to `http://localhost:3000`
 
 ## License
+
 MIT
